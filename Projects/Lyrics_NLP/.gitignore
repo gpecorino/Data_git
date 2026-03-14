@@ -5,6 +5,7 @@
 *.safetensors
 checkpoint-*/
 ./lyric-theme-longformer/
+README.md
 
 # Datasets and labeled outputs
 *.csv
