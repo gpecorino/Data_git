@@ -1,0 +1,28 @@
+# Model weights and checkpoints — these are huge (GBs)
+*.bin
+*.pt
+*.pth
+*.safetensors
+checkpoint-*/
+./lyric-theme-longformer/
+
+# Datasets and labeled outputs
+*.csv
+*.json
+*.jsonl
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+__pycache__/
+
+# CUDA and Python cache
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+venv/
+env/
